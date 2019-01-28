@@ -1,0 +1,18 @@
+# Site settings
+title: 159 Photography
+email: info@159photography.co.uk
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://www.159photography.co.uk" # the base hostname & protocol for your site
+
+twitter_username: https://twitter.com/159photography1
+instagram_username: https://www.instagram.com/onefiveninephotography/
+facebook_username: https://www.facebook.com/159photography/
+
+favicon: images/logo.jpg
+
+# Build settings
+markdown: kramdown
+
+sass:
+    sass_dir: _sass
