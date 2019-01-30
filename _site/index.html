@@ -83,8 +83,8 @@
 				</div>
 			</div>
 		</nav>
-<section id="home" class="one-five-nine-photography-hero parallax-window" data-section="home"  >
-		<div class="overlay"></div>
+<section id="home" class="one-five-nine-photography-hero" data-section="home">
+		<div class="overlay parallax-window"></div>
 			<div class="display-t text-center">
 				<div class="display-tc">
 					<div class="container">
@@ -441,9 +441,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					currentImage++;
 					if (currentImage > imgSlider.length -1)
 						currentImage = 0;
-					$('.parallax-window').animate({opacity: 0.}, function(){
-						$('.parallax-window').css('background-image', 'url(' + imgSlider[currentImage] + ')');
-						$('.parallax-window').animate({opacity: 1});	
+					$('.parallax-slider').animate({opacity: 0.}, function(){
+						$('.parallax-slider').attr('src', imgSlider[currentImage]);
+						$('.parallax-slider').animate({opacity: 1});	
 					});
 				}, 5000);
 			});
