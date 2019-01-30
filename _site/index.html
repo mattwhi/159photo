@@ -419,7 +419,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/main.js"></script>
 	<script>
 		$(document).ready(function(){
-			$('.parallax-window').parallax();
+			$('.parallax-window').parallax({
+				'iosFix' : true,
+				'androidFix' : true
+			});
 		});
 	</script>
 	<script>
