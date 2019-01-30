@@ -1,0 +1,29 @@
+//ABOUT
+.one-five-nine-photography-about-flex{
+	@include flex();
+	@include flexwrap();
+    width: 100%;
+    padding:0 4em;
+	.col-half{
+		width: 50%;
+		display: inline-block;
+		padding: 4em 2em;
+		@media screen and(max-width: $screen-sm){
+			width: 100%;
+			padding: 1em;
+			&.about-flex-img{
+				height: 300px;
+			}
+		}
+	}
+	.about-desc{
+		background: $brand-white;
+		padding: 3em;
+		@media screen and(max-width: $screen-sm){
+			padding: 2em;
+		}
+		h2{
+			font-size: 40px;
+		}
+	}
+}

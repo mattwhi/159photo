@@ -532,28 +532,6 @@ input[type="text"] {
 	}
 }
 
-
-.colorlib-social-icons {
-	margin: 0;
-	padding: 0;
-	li {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		@include inline-block;
-		a {
-			@include inline-block;
-			color: $brand-primary;
-			padding-left: 10px;
-			padding-right: 10px;
-			i {
-				font-size: 20px;
-			}
-		}
-	}
-}
-
-
 .colorlib-heading {
 	margin-bottom: 5em;
 	h2{
@@ -588,78 +566,6 @@ input[type="text"] {
 		}
 		@media screen and(max-width: $screen-xs){
 			width: 50%;
-		}
-	}
-}
-
-#colorlib-footer {
-	background: $brand-footer-color;
-	color: rgba($brand-white,.6)!important;
-	padding-top: 6em;
-
-	.colorlib-widget{
-		@media screen and(max-width: $screen-sm){
-			margin-bottom: 40px;
-			width: 100%;
-			float: left;
-		}
-	}
-	.colorlib-footer-links {
-		padding: 0;
-		margin: 0;
-		@media screen and(max-width: $screen-sm){
-			margin-bottom: 30px;
-		}
-		li {
-			padding: 0;
-			margin: 0 0 10px 0;
-			list-style: none;
-			display: block;
-			span{
-				display: block;
-				font-size: 13px;
-			}
-			a {
-				color: rgba($brand-white,.9);
-				text-decoration: none;
-				i{
-					padding-right: 10px;
-					color: $brand-primary;
-				}
-			}
-		}
-	}
-	.colorlib-social-icons {
-		li {
-			a {
-				padding-left: 10px;
-				padding-right: 10px;
-				&:first-child{
-					padding-left: 0;
-				}
-			}
-		}
-	}
-
-	h4 {
-		margin-bottom: 30px;
-		font-size: 24px;
-		color: darken($brand-white,10%);
-		text-transform: uppercase;
-		letter-spacing: 3px;
-		font-weight: 700;
-	}
-	.copy{
-		background: lighten($brand-black,15%);
-		padding: 1.2em 0;
-		p{
-			margin-bottom: 0;
-			color: $brand-white;
-			small{
-				a{
-					color: rgba(255,255,255,.7);
-				}
-			}
 		}
 	}
 }

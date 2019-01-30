@@ -355,28 +355,6 @@ input[type="text"] {
     font-size: 13px;
     padding: 10px 15px; }
 
-.colorlib-social-icons {
-  margin: 0;
-  padding: 0; }
-  .colorlib-social-icons li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: -moz-inline-stack;
-    display: inline-block;
-    zoom: 1;
-    *display: inline; }
-    .colorlib-social-icons li a {
-      display: -moz-inline-stack;
-      display: inline-block;
-      zoom: 1;
-      *display: inline;
-      color: #008080;
-      padding-left: 10px;
-      padding-right: 10px; }
-      .colorlib-social-icons li a i {
-        font-size: 20px; }
-
 .colorlib-heading {
   margin-bottom: 5em; }
   .colorlib-heading h2 {
@@ -407,56 +385,6 @@ input[type="text"] {
     @media screen and (max-width: 480px) {
       .instagram-entry .instagram {
         width: 50%; } }
-
-#colorlib-footer {
-  background: #323232;
-  color: rgba(255, 255, 255, 0.6) !important;
-  padding-top: 6em; }
-  @media screen and (max-width: 768px) {
-    #colorlib-footer .colorlib-widget {
-      margin-bottom: 40px;
-      width: 100%;
-      float: left; } }
-  #colorlib-footer .colorlib-footer-links {
-    padding: 0;
-    margin: 0; }
-    @media screen and (max-width: 768px) {
-      #colorlib-footer .colorlib-footer-links {
-        margin-bottom: 30px; } }
-    #colorlib-footer .colorlib-footer-links li {
-      padding: 0;
-      margin: 0 0 10px 0;
-      list-style: none;
-      display: block; }
-      #colorlib-footer .colorlib-footer-links li span {
-        display: block;
-        font-size: 13px; }
-      #colorlib-footer .colorlib-footer-links li a {
-        color: rgba(255, 255, 255, 0.9);
-        text-decoration: none; }
-        #colorlib-footer .colorlib-footer-links li a i {
-          padding-right: 10px;
-          color: #008080; }
-  #colorlib-footer .colorlib-social-icons li a {
-    padding-left: 10px;
-    padding-right: 10px; }
-    #colorlib-footer .colorlib-social-icons li a:first-child {
-      padding-left: 0; }
-  #colorlib-footer h4 {
-    margin-bottom: 30px;
-    font-size: 24px;
-    color: #e6e6e6;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 700; }
-  #colorlib-footer .copy {
-    background: #262626;
-    padding: 1.2em 0; }
-    #colorlib-footer .copy p {
-      margin-bottom: 0;
-      color: #fff; }
-      #colorlib-footer .copy p small a {
-        color: rgba(255, 255, 255, 0.7); }
 
 #map {
   width: 100%;
@@ -1176,3 +1104,70 @@ input[type="text"] {
         padding: 2em; } }
     .one-five-nine-photography-about-flex .about-desc h2 {
       font-size: 40px; }
+
+#one-five-nine-photography-footer {
+  background-image: url("../images/ben-wales.png");
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.6) !important;
+  padding-top: 6em; }
+  @media screen and (max-width: 768px) {
+    #one-five-nine-photography-footer .one-five-nine-photography-widget {
+      margin-bottom: 40px;
+      width: 100%;
+      float: left; } }
+  #one-five-nine-photography-footer .one-five-nine-photography-footer-links {
+    padding: 0;
+    margin: 0; }
+    @media screen and (max-width: 768px) {
+      #one-five-nine-photography-footer .one-five-nine-photography-footer-links {
+        margin-bottom: 30px; } }
+    #one-five-nine-photography-footer .one-five-nine-photography-footer-links li {
+      padding: 0;
+      margin: 0 0 10px 0;
+      list-style: none;
+      display: block; }
+      #one-five-nine-photography-footer .one-five-nine-photography-footer-links li span {
+        display: block;
+        font-size: 13px; }
+      #one-five-nine-photography-footer .one-five-nine-photography-footer-links li a {
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: none; }
+        #one-five-nine-photography-footer .one-five-nine-photography-footer-links li a i {
+          padding-right: 10px;
+          color: #008080; }
+  #one-five-nine-photography-footer .one-five-nine-photography-social-icons {
+    margin: 0;
+    padding: 0; }
+    #one-five-nine-photography-footer .one-five-nine-photography-social-icons li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: -moz-inline-stack;
+      display: inline-block;
+      zoom: 1;
+      *display: inline; }
+      #one-five-nine-photography-footer .one-five-nine-photography-social-icons li a {
+        display: -moz-inline-stack;
+        display: inline-block;
+        zoom: 1;
+        *display: inline;
+        color: #008080;
+        padding-left: 10px;
+        padding-right: 10px; }
+        #one-five-nine-photography-footer .one-five-nine-photography-social-icons li a i {
+          font-size: 20px; }
+  #one-five-nine-photography-footer h4 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #e6e6e6;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700; }
+  #one-five-nine-photography-footer .copy {
+    background: #262626;
+    padding: 1.2em 0; }
+    #one-five-nine-photography-footer .copy p {
+      margin-bottom: 0;
+      color: #fff; }
+      #one-five-nine-photography-footer .copy p small a {
+        color: rgba(255, 255, 255, 0.7); }
