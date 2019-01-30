@@ -7,17 +7,23 @@ metatitle: 159 Photography | Event Photography | Wedding Photography | West York
 
 metadescription: 159 Photography, Professional, fun, event photography based in West Yorkshire offering a wide range of Professional photography services at affordable low cost prices.
 
-###Header Section
+###hero Section
 
-title: 159 Photography
+hero-title: 159 Photography
 
-header-title: Professional Event Photography in West Yorkshire
+hero-copy: PROFESSIONAL PHOTOGRAPHY FOR YOUR WEDDING, EVENT, BIRTHDAY, SPECIAL OCCASION
 
 header-sub-title: West Yorkshire based event photographer, experienced in all lines of photography
 
 logo-title: 159 Photography, wedding, event, occasion photography, West Yorkshire
 
 logo-alt: An image of 159 photography logo
+
+hero-slider-image-1: images/2.jpg
+
+hero-slider-image-2: images/3.jpg
+
+hero-slider-image-3: images/4.jpg
 
 ###About Section
 

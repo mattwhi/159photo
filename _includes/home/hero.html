@@ -1,13 +1,29 @@
-<section id="home" class="video-hero" style="height: 800px; background-image: url(images/1.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
+<section id="home" class="one-five-nine-photography-hero parallax-window" data-section="home" data-image-src="images/1.jpg" >
 		<div class="overlay"></div>
 			<div class="display-t text-center">
 				<div class="display-tc">
 					<div class="container">
 						<div class="col-md-10 col-md-offset-1">
 							<div class="animate-box">
-								<h1 class="holder"><span>159 Photography</span></h1>
-								<h2>Professional Photography for your Wedding, Event, Birthday, Special Occasion</h2>
-								<p><a href="gallery.html" class="btn btn-primary btn-custom">View Gallery</a></p>
+								<h1 class="holder"><span>{{page.hero-title}}</span></h1>
+								<h2>{{page.hero-copy}}</h2>
+								<ul class="one-five-nine-photography-social-hero">
+									<li class="facebook">
+										<a href="{{ site.facebook_username }}" title="Follow 159 Photography on Facebook" target="_blank">
+											<i class="fab fa-facebook-square"></i>
+										</a>
+									</li>
+									<li class="twitter">
+										<a href="{{ site.twitter_username }}" title="Follow 159 Photography on Twitter" target="_blank">
+											<i class="fab fa-twitter-square"></i>
+										</a>
+									</li>
+									<li class="instagram">
+										<a href="{{ site.instagram_username }}" title="Follow 159 Photography on Instagram" target="_blank">
+											<i class="fab fa-instagram"></i>
+										</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>

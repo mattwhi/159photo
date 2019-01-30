@@ -16,7 +16,34 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Main -->
+	<!-- Parallax TODO: Download Local Copy -->
+	<script src="js/parallax.min.js"></script>
 	<script src="js/main.js"></script>
-
+	<script>
+		$(document).ready(function(){
+			$('.parallax-window').parallax();
+		});
+	</script>
+	<script>
+			$(document).ready(function(){
+				currentImage = -1;
+				
+				var imgSlider = [
+				'{{page.hero-slider-image-1}}', 
+				'{{page.hero-slider-image-2}}', 
+				'{{page.hero-slider-image-3}}'
+				];
+				
+				setInterval(function(){
+					currentImage++;
+					if (currentImage > imgSlider.length -1)
+						currentImage = 0;
+					$('.parallax-slider').animate({opacity: 0.}, function(){
+						$('.parallax-slider').attr('src', imgSlider[currentImage]);
+						$('.parallax-slider').animate({opacity: 1});	
+					});
+				}, 5000);
+			});
+		</script>
 	</body>
 </html>
