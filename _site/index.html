@@ -83,7 +83,7 @@
 				</div>
 			</div>
 		</nav>
-<section id="home" class="one-five-nine-photography-hero parallax-window" data-section="home" data-image-src="images/1.jpg" >
+<section id="home" class="one-five-nine-photography-hero parallax-window" data-section="home"  >
 		<div class="overlay"></div>
 			<div class="display-t text-center">
 				<div class="display-tc">
@@ -416,11 +416,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<!-- Main -->
 	<!-- Parallax -->
 	<script src="js/parallax.min.js"></script>
-	
+
 	<script src="js/main.js"></script>
 	<script>
 		$(document).ready(function(){
 			$('.parallax-window').parallax({
+				'imageSrc': 'images/1.jpg',
 				'iosFix' : true,
 				'androidFix' : true
 			});

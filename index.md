@@ -19,6 +19,8 @@ logo-title: 159 Photography, wedding, event, occasion photography, West Yorkshir
 
 logo-alt: An image of 159 photography logo
 
+hero-slider-image-0: images/1.jpg
+
 hero-slider-image-1: images/2.jpg
 
 hero-slider-image-2: images/3.jpg
