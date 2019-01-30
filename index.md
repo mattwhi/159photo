@@ -36,15 +36,18 @@ about-content: 159 Photography offer a range of photography services to cover yo
 about-button: Find out more
 
 ###service sections
-
+### fa icons https://fontawesome.com/icons?d=gallery
 service-title: Services
 
+service-box-1-fa: fa-camera-retro
 service-box-1-header: Event Photography
 service-box-1-content: Whatever your event, 159 Photography can cover your needs.
 
+service-box-2-fa: fa-camera-retro
 service-box-2-header: Wedding Photography
 service-box-2-content: Lucking after your special day, rest assured we will provide an outstanding service.
 
+service-box-3-fa: fa-camera-retro
 service-box-3-header: Location Portrait
 service-box-3-content: Family or individual photogrpahy on location.
 

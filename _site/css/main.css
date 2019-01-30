@@ -15,7 +15,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   color: gray;
-  background: #000; }
+  background: #262626; }
 
 #page {
   position: relative;
@@ -88,61 +88,12 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .colorlib-gallery,
 #colorlib-about,
-#colorlib-services,
+#one-five-nine-photography-services,
 #colorlib-contact,
 .colorlib-blog,
 #colorlib-instagram {
   padding: 7em 0;
   clear: both; }
-
-.services-img {
-  height: 320px;
-  display: block; }
-  @media screen and (max-width: 768px) {
-    .services-img {
-      margin-bottom: 20px; } }
-
-.services-desc {
-  padding: 0 1em; }
-  @media screen and (max-width: 768px) {
-    .services-desc {
-      padding: 0; } }
-  .services-desc ul li {
-    list-style: none;
-    margin-bottom: 10px; }
-
-.services {
-  margin-bottom: 30px;
-  position: relative;
-  background: #fff;
-  padding: 20px;
-  z-index: 0; }
-  .services .icon {
-    position: relative;
-    margin-bottom: 15px;
-    display: inline-block; }
-    .services .icon:before {
-      position: absolute;
-      bottom: 10px;
-      left: -10px;
-      right: 0;
-      width: 24px;
-      height: 24px;
-      content: '';
-      background: #008080;
-      z-index: -1;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%; }
-    .services .icon i {
-      font-size: 50px;
-      color: #000;
-      z-index: 1; }
-  .services .desc h3 {
-    font-size: 24px;
-    font-weight: 700;
-    text-transform: uppercase; }
 
 .colorlib-about-flex {
   display: -webkit-box;
@@ -1167,3 +1118,60 @@ input[type="text"] {
       font-size: 50px; }
       .one-five-nine-photography-hero .one-five-nine-photography-social-hero li a:hover {
         color: #008080; }
+
+.services-title {
+  text-align: center; }
+  .services-title h2 {
+    color: #fff;
+    margin: 0 0 100px 0;
+    font-size: 5em; }
+
+.services-img {
+  height: 320px;
+  display: block; }
+  @media screen and (max-width: 768px) {
+    .services-img {
+      margin-bottom: 20px; } }
+
+.services-desc {
+  padding: 0 1em; }
+  @media screen and (max-width: 768px) {
+    .services-desc {
+      padding: 0; } }
+  .services-desc ul li {
+    list-style: none;
+    margin-bottom: 10px; }
+
+.services {
+  margin-bottom: 30px;
+  position: relative;
+  background-color: #e6e6e6;
+  padding: 20px;
+  z-index: 0;
+  min-height: 260px; }
+  .services .icon {
+    position: relative;
+    margin-bottom: 15px;
+    display: inline-block; }
+    .services .icon:before {
+      position: absolute;
+      bottom: 10px;
+      left: -10px;
+      right: 0;
+      width: 24px;
+      height: 24px;
+      content: '';
+      background: #008080;
+      z-index: -1;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%; }
+    .services .icon i {
+      font-size: 50px;
+      color: #000;
+      z-index: 1; }
+  .services .desc h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase; }

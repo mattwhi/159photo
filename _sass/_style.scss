@@ -119,7 +119,7 @@ body {
 	font-size: 18px;
 	line-height: 1.5;
 	color: lighten($brand-black,50%);
-	background: #000;
+	background: lighten($brand-black,15%);
 }
 #page {
 	position: relative;
@@ -199,76 +199,14 @@ h1, h2, h3, h4, h5, h6, figure {
 	position: relative;
 }
 
-
-
-
-
 .colorlib-gallery,
 #colorlib-about,
-#colorlib-services,
+#one-five-nine-photography-services,
 #colorlib-contact,
 .colorlib-blog,
 #colorlib-instagram{
 	padding: 7em 0;
 	clear: both;
-}
-
-
-//SERVICES
-.services-img{
-	height: 320px;
-	display: block;
-	@media screen and(max-width: $screen-sm){
-		margin-bottom: 20px;
-	}
-}
-.services-desc{
-	padding: 0 1em;
-	@media screen and(max-width: $screen-sm){
-		padding: 0;
-	}
-	ul{
-		li{
-			list-style: none;
-			margin-bottom: 10px;
-		}
-	}
-}
-.services{
-	margin-bottom: 30px;
-	position: relative;
-	background: $brand-white;
-	padding: 20px;
-	z-index: 0;
-	.icon{
-		position: relative;
-		margin-bottom: 15px;
-		display: inline-block;
-		&:before{
-			position: absolute;
-			bottom: 10px;
-			left: -10px;
-			right: 0;
-			width: 24px;
-			height:24px;
-			content: '';
-			background: $brand-primary;
-			z-index: -1;
-			@include border-radius(50%);
-		}
-		i{
-			font-size: 50px;
-			color: $brand-black;
-			z-index: 1;
-		}
-	}
-	.desc{
-		h3{
-			font-size: 24px;
-			font-weight: 700;
-			text-transform: uppercase;
-		}
-	}
 }
 
 //ABOUT
