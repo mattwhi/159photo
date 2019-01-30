@@ -11,7 +11,7 @@ metadescription: 159 Photography, Professional, fun, event photography based in 
 
 hero-title: 159 Photography
 
-hero-copy: PROFESSIONAL PHOTOGRAPHY FOR YOUR WEDDING, EVENT, BIRTHDAY, SPECIAL OCCASION
+hero-copy: PROFESSIONAL PHOTOGRAPHY FOR YOUR SPECIAL OCCASION
 
 header-sub-title: West Yorkshire based event photographer, experienced in all lines of photography
 
