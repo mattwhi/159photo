@@ -43,9 +43,9 @@
 					currentImage++;
 					if (currentImage > imgSlider.length -1)
 						currentImage = 0;
-					$('.parallax-slider').animate({opacity: 0.}, function(){
-						$('.parallax-slider').attr('src', imgSlider[currentImage]);
-						$('.parallax-slider').animate({opacity: 1});	
+					$('.parallax-window').animate({opacity: 0.}, function(){
+						$('.parallax-window').css('background-image', 'url(' + imgSlider[currentImage] + ')');
+						$('.parallax-window').animate({opacity: 1});	
 					});
 				}, 5000);
 			});
