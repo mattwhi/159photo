@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .colorlib-gallery,
-#colorlib-about,
+#one-five-nine-photography-about,
 #one-five-nine-photography-services,
 #colorlib-contact,
 .colorlib-blog,
@@ -209,34 +209,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	clear: both;
 }
 
-//ABOUT
-.colorlib-about-flex{
-	@include flex();
-	@include flexwrap();
-	width: 100%;
-	.col-half{
-		width: 50%;
-		display: inline-block;
-		padding: 4em 2em;
-		@media screen and(max-width: $screen-sm){
-			width: 100%;
-			padding: 1em;
-			&.about-flex-img{
-				height: 300px;
-			}
-		}
-	}
-	.about-desc{
-		background: $brand-white;
-		padding: 3em;
-		@media screen and(max-width: $screen-sm){
-			padding: 2em;
-		}
-		h2{
-			font-size: 40px;
-		}
-	}
-}
+
 
 //GALLERY
 .gallery-img{

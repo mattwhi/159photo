@@ -51,9 +51,6 @@ service-box-3-fa: fa-camera-retro
 service-box-3-header: Location Portrait
 service-box-3-content: Family or individual photogrpahy on location.
 
-service-box-4-header: Promotional Photography
-service-box-4-content: Personal promotion or product photography for you or your business.
-
 ###Portfolio sections
 
 portfolio-image-1: 1.jpg

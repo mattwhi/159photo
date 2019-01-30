@@ -87,42 +87,13 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative; }
 
 .colorlib-gallery,
-#colorlib-about,
+#one-five-nine-photography-about,
 #one-five-nine-photography-services,
 #colorlib-contact,
 .colorlib-blog,
 #colorlib-instagram {
   padding: 7em 0;
   clear: both; }
-
-.colorlib-about-flex {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  width: 100%; }
-  .colorlib-about-flex .col-half {
-    width: 50%;
-    display: inline-block;
-    padding: 4em 2em; }
-    @media screen and (max-width: 768px) {
-      .colorlib-about-flex .col-half {
-        width: 100%;
-        padding: 1em; }
-        .colorlib-about-flex .col-half.about-flex-img {
-          height: 300px; } }
-  .colorlib-about-flex .about-desc {
-    background: #fff;
-    padding: 3em; }
-    @media screen and (max-width: 768px) {
-      .colorlib-about-flex .about-desc {
-        padding: 2em; } }
-    .colorlib-about-flex .about-desc h2 {
-      font-size: 40px; }
 
 .gallery-img {
   display: block;
@@ -1175,3 +1146,33 @@ input[type="text"] {
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase; }
+
+.one-five-nine-photography-about-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  width: 100%;
+  padding: 0 4em; }
+  .one-five-nine-photography-about-flex .col-half {
+    width: 50%;
+    display: inline-block;
+    padding: 4em 2em; }
+    @media screen and (max-width: 768px) {
+      .one-five-nine-photography-about-flex .col-half {
+        width: 100%;
+        padding: 1em; }
+        .one-five-nine-photography-about-flex .col-half.about-flex-img {
+          height: 300px; } }
+  .one-five-nine-photography-about-flex .about-desc {
+    background: #fff;
+    padding: 3em; }
+    @media screen and (max-width: 768px) {
+      .one-five-nine-photography-about-flex .about-desc {
+        padding: 2em; } }
+    .one-five-nine-photography-about-flex .about-desc h2 {
+      font-size: 40px; }
