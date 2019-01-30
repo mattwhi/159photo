@@ -1083,7 +1083,7 @@ input[type="text"] {
   z-index: 0; }
   @media screen and (max-width: 768px) {
     .one-five-nine-photography-hero {
-      heifght: inherit;
+      height: inherit;
       padding: 3em 0; } }
   .one-five-nine-photography-hero .overlay {
     position: absolute;
