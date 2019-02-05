@@ -1018,6 +1018,21 @@ input[type="text"] {
       .one-five-nine-photography-hero .one-five-nine-photography-social-hero li a:hover {
         color: #008080; }
 
+#one-five-nine-photography-mainhero {
+  padding: 10em 0 3em 0;
+  clear: both; }
+  #one-five-nine-photography-mainhero .mainhero-title {
+    text-align: center; }
+    #one-five-nine-photography-mainhero .mainhero-title h2 {
+      color: #fff;
+      margin: 0 0 50px 0;
+      font-size: 5em; }
+  #one-five-nine-photography-mainhero .mainhero-content {
+    padding: 2em 0;
+    text-align: center; }
+    #one-five-nine-photography-mainhero .mainhero-content p {
+      font-size: 2em; }
+
 .services-title {
   text-align: center; }
   .services-title h2 {
@@ -1075,6 +1090,9 @@ input[type="text"] {
     font-weight: 700;
     text-transform: uppercase; }
 
+#one-five-nine-photograpy-gallery {
+  height: 1000px; }
+
 .one-five-nine-photography-about-flex {
   display: -webkit-box;
   display: -moz-box;
@@ -1106,7 +1124,6 @@ input[type="text"] {
       font-size: 40px; }
 
 #one-five-nine-photography-footer {
-  background-image: url("../images/ben-wales.png");
   background-size: cover;
   color: rgba(255, 255, 255, 0.6) !important;
   padding-top: 6em; }

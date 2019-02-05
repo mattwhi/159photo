@@ -1,0 +1,11 @@
+<div id="one-five-nine-photograpy-gallery" class="m-p-g">
+    <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+        {% for img in page.gallery-images %}
+        <img src="{{site.url}}/images/gallery/{{img}}" 
+        data-full="{{site.url}}/images/gallery/{{img}}" 
+            class="m-p-g__thumbs-img" />
+        {% endfor %}
+    </div>
+    <div class="m-p-g__fullscreen"></div>
+</div>
+
