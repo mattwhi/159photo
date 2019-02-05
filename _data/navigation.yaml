@@ -1,0 +1,33 @@
+### Left Menu
+navLogo:
+    - image: /images/logo-159photography-white.png
+      title: 159 Photography West Yorkshire
+      link: /
+      alt: An image of the 159 Photography Logo
+leftMenu:
+    - name: Home
+      link: /
+      title: 159 Photography West Yorkshire
+    - name: Galleries
+      link: /#
+      title: 159 Photography Galleries West Yorkshire
+      subMenu:
+          - name: Weddings
+            link: /gallery/weddings/
+            title: 159 Wedding Photography West Yorkshire
+    - name: Services
+      link: /services
+      title: 159 Photography Services West Yorkshire
+
+rightMenu:
+    - name: Blog
+      link: /blog/
+      title: 159 Photography Blog
+    - name: About
+      link: /about/
+      title: About 159 Photography West Yorkshire
+    - name: Contact
+      link: /contact/
+      title: Contact 159 Photography West Yorkshire
+
+    

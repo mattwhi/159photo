@@ -192,7 +192,7 @@
 
 	// Loading page
 	var loaderPage = function() {
-		$(".colorlib-loader").fadeOut("slow");
+		$(".one-five-nine-photography-loader").fadeOut("slow");
 	};
 
 
@@ -200,8 +200,8 @@
 
 		if ( !isMobile.any() ) {
 			$(window).stellar({
-				horizontalScrolling: false,
-				hideDistantElements: false, 
+				horizontalScrolling: true,
+				hideDistantElements: true, 
 				responsive: true
 
 			});

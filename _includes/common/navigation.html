@@ -1,26 +1,48 @@
-<div class="colorlib-loader"></div>
+<div class="one-five-nine-photography-loader"></div>
 	<div id="page">
 		<nav class="one-five-nine-photography-nav" role="navigation">
 			<div class="top-menu">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-2 col-md-push-5 text-center">
-							<div id="one-five-nine-photography-logo"><a href="index.html"><img src="{{site.url}}/images/logo-159photography-white.png" width="110" alt="{{ page.logo-alt }}" title="{{ page.logo-title }}"></div>
+							<div id="one-five-nine-photography-logo">
+								{% for logo in site.data.navigation.navLogo %}
+								<a href="{{logo.link}}"><img src="{{site.url}}{{ logo.image }}" width="110" alt="{{ logo.alt}}" title="{{ logo.title }}"></a>
+								{% endfor %}
+							</div>
 						</div>
 						<div class="col-md-5 col-md-pull-2 text-right menu-1">
 							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
-								<li class="has-dropdown">
-									<a href="gallery.html">Gallery</a>
+							{%for navLeft in site.data.navigation.leftMenu%}
+								{% if navLeft.subMenu %}
+								<li class="has-dropdown"><a href="{{site.url}}{{navLeft.link}}" title="{{navLeft.title}}">{{ navLeft.name }}</a>
+									<ul class="dropdown">
+										{% for links in navLeft.subMenu %}
+											<li><a href="{{ site.url }}{{links.link}}" title="{{links.title}}">{{links.name}}</a></li>
+										{% endfor %}
+									</ul>
 								</li>
-								<li><a href="services.html">Services</a></li>
+								{% else %}
+								<li><a href="{{site.url}}{{navLeft.link}}" title="{{navLeft.title}}">{{ navLeft.name }}</a></li>
+								{% endif %}
+							{% endfor %}
 							</ul>
 						</div>
 						<div class="col-md-5 text-left menu-1">
 							<ul>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								{% for navRight in site.data.navigation.rightMenu %}
+								{% if navRight.subMenu %}
+									<li class="has-dropdown"><a href="{{site.url}}{{navRight.link}}"title="{{navRight.title}}">{{ navRight.name }}</a>
+										<ul class="dropdown">
+											{% for links in navRight.subMenu %}
+												<li><a href="{{ site.url }}{{links.link}}" title="{{links.title}}">{{links.name}}</a></li>
+											{% endfor %}
+										</ul>
+									</li>
+									{% else %}
+									<li class="has-dropdown"><a href="{{site.url}}{{navRight.link}}" title="{{navRight.title}}">{{ navRight.name }}</a></li>
+									{% endif %}
+								{% endfor %}
 							</ul>
 						</div>
 					</div>

@@ -53,29 +53,57 @@
 
 	</head>
 		<body>
-<div class="colorlib-loader"></div>
+<div class="one-five-nine-photography-loader"></div>
 	<div id="page">
 		<nav class="one-five-nine-photography-nav" role="navigation">
 			<div class="top-menu">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-2 col-md-push-5 text-center">
-							<div id="one-five-nine-photography-logo"><a href="index.html"><img src="http://localhost:4000/images/logo-159photography-white.png" width="110" alt="" title=""></div>
+							<div id="one-five-nine-photography-logo">
+								
+								<a href="/"><img src="http://localhost:4000/images/logo-159photography-white.png" width="110" alt="An image of the 159 Photography Logo" title="159 Photography West Yorkshire"></a>
+								
+							</div>
 						</div>
 						<div class="col-md-5 col-md-pull-2 text-right menu-1">
 							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
-								<li class="has-dropdown">
-									<a href="gallery.html">Gallery</a>
+							
+								
+								<li><a href="http://localhost:4000/" title="159 Photography West Yorkshire">Home</a></li>
+								
+							
+								
+								<li class="has-dropdown"><a href="http://localhost:4000/#" title="159 Photography Galleries West Yorkshire">Galleries</a>
+									<ul class="dropdown">
+										
+											<li><a href="http://localhost:4000/gallery/weddings/" title="159 Wedding Photography West Yorkshire">Weddings</a></li>
+										
+									</ul>
 								</li>
-								<li><a href="services.html">Services</a></li>
+								
+							
+								
+								<li><a href="http://localhost:4000/services" title="159 Photography Services West Yorkshire">Services</a></li>
+								
+							
 							</ul>
 						</div>
 						<div class="col-md-5 text-left menu-1">
 							<ul>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								
+								
+									<li class="has-dropdown"><a href="http://localhost:4000/blog/" title="159 Photography Blog">Blog</a></li>
+									
+								
+								
+									<li class="has-dropdown"><a href="http://localhost:4000/about/" title="About 159 Photography West Yorkshire">About</a></li>
+									
+								
+								
+									<li class="has-dropdown"><a href="http://localhost:4000/contact/" title="Contact 159 Photography West Yorkshire">Contact</a></li>
+									
+								
 							</ul>
 						</div>
 					</div>
@@ -249,25 +277,25 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		});
 	</script>
 	<script>
-			$(document).ready(function(){
-				currentImage = -1;
-				
-				var imgSlider = [
-				'', 
-				'', 
-				''
-				];
-				
-				setInterval(function(){
-					currentImage++;
-					if (currentImage > imgSlider.length -1)
-						currentImage = 0;
-					$('.parallax-slider').animate({opacity: 0.}, function(){
-						$('.parallax-slider').attr('src', imgSlider[currentImage]);
-						$('.parallax-slider').animate({opacity: 1});	
-					});
-				}, 5000);
-			});
+		$(document).ready(function(){
+			currentImage = -1;
+			
+			var imgSlider = [
+			'', 
+			'', 
+			''
+			];
+			
+			setInterval(function(){
+				currentImage++;
+				if (currentImage > imgSlider.length -1)
+					currentImage = 0;
+				$('.parallax-slider').animate({opacity: 0.3}, function(){
+					$('.parallax-slider').attr('src', imgSlider[currentImage]);
+					$('.parallax-slider').animate({opacity: 1});	
+				});
+			}, 5000);
+		});
 		</script>
 	</body>
 </html>
