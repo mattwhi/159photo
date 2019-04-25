@@ -30,17 +30,19 @@
 	<link rel="stylesheet" href="{{site.url}}/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="{{site.url}}/css/bootstrap.css">
+	<link rel="stylesheet" href="{{ "css/bootstrap.css" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}">
+	
 
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="{{site.url}}/css/magnific-popup.css">
+	<link rel="stylesheet" href="{{ "css/magnific-popup.css" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}">
 
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="{{site.url}}/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="{{site.url}}/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="{{ "css/owl.carousel.min.css" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}">
+	<link rel="stylesheet" href="{{ "css/owl.theme.default.min.css" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}">
+	
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="{{site.url}}/css/main.css">
+	<link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }} ">
 
 	<!-- Modernizr JS -->
 	<script src="{{site.url}}/js/modernizr-2.6.2.min.js"></script>
