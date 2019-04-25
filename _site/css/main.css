@@ -496,9 +496,11 @@ input[type="text"] {
     -ms-border-radius: 50%;
     border-radius: 50%; }
     .gototop a i {
+      font-size: 2em;
       height: 50px;
       display: table-cell;
-      vertical-align: middle; }
+      vertical-align: middle;
+      opacity: 0.5; }
     .gototop a:hover, .gototop a:active, .gototop a:focus {
       text-decoration: none;
       outline: none; }

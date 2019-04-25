@@ -676,9 +676,11 @@ input[type="text"] {
 		text-align: center;
 		@include border-radius(50%);
 		i {
+			font-size: 2em;
 			height: 50px;
 			display: table-cell;
 			vertical-align: middle;
+			opacity: 0.5;
 
 		}
 		&:hover, &:active, &:focus {
